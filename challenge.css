@@ -1,0 +1,264 @@
+*{
+	margin: 0;
+	padding: 0
+}
+body{
+	background-position: center;
+	background-color:#f2e9e2;
+	padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+}
+.middle{
+	display:flex;
+	flex-direction: row;
+	background-color:#f2e9e2 ; 
+	height: 450px;
+	width: 740px;
+	padding: 17% 15%;
+	margin-left:3.5em;
+	justify-content: center;
+	align-content: center;
+	
+}
+
+.pic{
+	height: 450px;
+	width:355px;
+	position: relative;
+}	
+img{
+	width: 100%;
+	height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  
+}
+.content{
+	background-color:#fff;
+	height: 450px;
+	width:262px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: left;
+
+
+}
+h2{
+	font-family: georgia;
+	font-weight: bolder;
+	font-size: 1.89em;
+	margin-top:.7em;
+	margin-bottom: .5em;
+}
+p{
+	letter-spacing: .4em;
+	color: #767574;
+	margin-bottom: 0em;
+	margin-top: 1.3em;
+	font-family:sans-serif;
+	font-size:.9em;
+}
+.floral{
+	font-size:1em;
+	font-family: verdana,san-serif;
+	color:#767574;
+	margin-bottom: 1.65em;
+	line-height: 25px;
+}
+
+.contain{
+	width: 250px;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    justify-content:none;
+    align-items: flex-start
+
+}
+.bold{
+	color:#3d8168;
+	font-size: 2em; 
+	font-family:times new roman;
+	width: 115px;
+	font-weight: bolder;
+}
+.strike{
+	text-decoration: line-through;
+	width: 60px;
+    margin-top: 8px;
+    margin-left: 16px;
+    font-size: 1em;
+    justify-content: center;
+    align-content: center;
+
+}
+.hover{
+	color:white;
+	background-color: #3d8168;
+	border-radius: 10px;
+	height: 50px;
+	width:260px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 1em;
+	font-family: verdana,sans-serif;
+
+}
+.hover img{
+	width: 1.7em;
+	height:1.5em;
+	margin-right:1em;
+
+}
+.hover:hover{
+	cursor: pointer;
+	background-color: #072311;
+}
+h3{
+	margin-top: 30px;
+	font-style: italic;
+	font-family: monospace;
+	display: flex;
+	font-size: 10px;
+	justify-content: center;
+}
+
+@media screen and (max-width: 760px)
+{
+	body{
+		background-color:#f2e9e2;	
+    	width: 645px;
+    	height: 1100px;
+    	padding-top: 2em;
+	}
+	.middle{
+		display: flex;
+		flex-direction: column;
+		width: 620px;
+    	height: 100%;
+    	justify-content: flex-start;
+		margin-left: 1em;
+		margin-right:1em;
+		padding: 0;
+
+	}
+	.pic{
+		height: 450px;
+		width:620px;
+		position: relative;
+	}
+
+	img{
+		position: relative;
+		width: 620px;
+		height: 450px;
+    	border-top-left-radius: 20px;
+    	border-top-right-radius: 20px;
+    	border-bottom-right-radius: 0px;
+    	border-bottom-left-radius: 0px;
+		}
+
+	.content{
+		background-color:#fff;
+		height: 630px;
+		width:565px;
+	    border-bottom-left-radius: 20px;
+	    border-bottom-right-radius: 20px;
+	    border-top-right-radius: 0px;
+	    border-top-left-radius: 0px;
+    	padding-left: 1.7em;
+    	padding-right: 27px;
+
+	   
+	}
+	h2{
+		font-family: Georgia;
+		font-weight: bolder;
+		font-size: 3em;
+		margin-top:.5em;
+		color: #000;
+	}
+	p{
+		font-size: 1.49em;
+		letter-spacing: .4em;
+		color: #767574;
+		margin-top: 1em;
+	}
+	.floral{
+		font-size: 1.49em;
+		font-family: verdana,san-serif;
+		color:#767574;
+		margin-top: 1.5em;
+		margin-bottom: 1.65em;
+		line-height: 36px;
+	}
+	.contain{
+		width: 330px;
+		height: 60px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+	    justify-content: space-between;
+	    align-items: center;
+	    margin-bottom: 1.5em;
+
+	}
+	.bold{
+		color:#3d8168;
+		font-size: 3em; 
+		font-family:times new roman;
+		width: 115px;
+		font-weight: bolder;
+	}
+	.strike{
+		text-decoration: line-through;
+		width: 100px;
+		height: 35px;
+	    margin-top: 8px;
+	    font-size: 1.4em;
+	    font-family: verdana,san-serif;
+	    color:#767574;
+
+
+	}
+	.hover{
+		color:white;
+		background-color: #3d8168;
+		border-radius: 12px;
+		height: 80px;
+		width:565px;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		font-weight: bold;
+		font-size: 1.49em;
+		font-family: verdana,sans-serif;
+
+
+	}
+	.hover img{
+		width: 2em;
+		height:2em;
+		margin-right:1em;
+	}
+	.hover:hover{
+		cursor: pointer;
+		background-color: #072311;
+	}
+
+	h3{
+	margin-top: 25px;
+	font-style: italic;
+	font-family: monospace;
+	font-size: 13px;
+	display: flex;
+	justify-content: center;
+	}
+}
